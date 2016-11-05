@@ -61,7 +61,7 @@ case $1 in
     rm ${SECRET_KEY_FILE}
     rm ${ENC_SECRET_KEY_FILE}
     echo "Encrypted for key: $KEY_DESC"
-    echo "Wroute out $OUT_FILE"
+    echo "Wrote out $OUT_FILE"
     ;;
 'decrypt')
 
